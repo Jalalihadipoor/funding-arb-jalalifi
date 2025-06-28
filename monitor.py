@@ -70,5 +70,5 @@ def main():
     if alerts:
         send_telegram("\n\n".join(alerts))
 
-if name == "__main__":
+if __name__ == "__main__":
     main()
